@@ -20,12 +20,12 @@ Auf ausdrücklichen Wunsch bleiben diese Angaben zunächst offen:
 
 - Teamnamen (zwei oder drei Personen), ggf. Matrikelnummern nach Lehrveranstaltungsvorgabe.
 - Echte Betreiber- und Kontaktangaben in `impressum.html` und `datenschutz.html`.
-- Repository-URL und tatsächliche Teambeiträge in `docs/TEAM.md`.
+- Tatsächliche Teambeiträge und Zugriffsrechte in `docs/TEAM.md`.
 - Persönliche Reflexion der KI-Nutzung: `DOKUMENTATION.md` enthält nachvollziehbar gekennzeichnete, sinngemäße Arbeitsaufträge aus dieser KI-Erstellung. Das Team muss die Angaben prüfen und um eigene tatsächlich verwendete Prompts ergänzen.
 
 Suche nach `[ERGÄNZEN`, um offene Stellen zu finden. Die Vorlagen sind ohne echte Betreiberangaben **nicht rechtlich vollständig**. Für öffentliches Hosting sind zusätzliche Hosting-/Datenschutzangaben nötig. Es wird keine rechtliche Vollständigkeit für einen echten Shop behauptet.
 
-Ein lokales Git-Repository ist vorbereitet. Ein initialer Commit dokumentiert die KI-Erstellung; er ersetzt nicht die geforderten laufenden Commits aller Teammitglieder. Ein Remote-Repository wurde nicht angelegt und nichts hochgeladen.
+Ein lokales Git-Repository ist vorbereitet. Ein initialer Commit dokumentiert die KI-Erstellung; er ersetzt nicht die geforderten laufenden Commits aller Teammitglieder. Das private Remote-Repository ist https://github.com/Erenkocy6/hallo-mehrweg-webp1. Die KI-Erstellung ist als initialer Stand dokumentiert; echte Teambeiträge folgen separat.
 
 ## Seitenzuordnung
 

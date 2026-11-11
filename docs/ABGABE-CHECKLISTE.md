@@ -17,7 +17,8 @@
 
 - [ ] Betreiberangaben in Impressum und Datenschutz wahrheitsgemäß ergänzen. Noch nicht rechtlich vollständig.
 - [ ] Team aus zwei oder drei Personen benennen bzw. genehmigte Ausnahme dokumentieren.
-- [ ] Remote-Repository anlegen und Zugriff für die Abnahme klären.
+- [x] Privates Remote-Repository auf GitHub angelegt.
+- [ ] Teamzugriff und Zugriff für die Abnahme klären.
 - [ ] Tatsächliche regelmäßige Commits aller Teammitglieder vorweisen.
 - [ ] Eigene tatsächlich verwendete Prompts und persönliche Bewertung ergänzen. Die vorhandenen drei Aufträge sind ausdrücklich sinngemäße Rekonstruktionen.
 - [ ] Jede Person hat den gesamten Code selbst verstanden und geprüft.
