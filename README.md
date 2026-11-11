@@ -25,7 +25,7 @@ Auf ausdrücklichen Wunsch bleiben diese Angaben zunächst offen:
 
 Suche nach `[ERGÄNZEN`, um offene Stellen zu finden. Die Vorlagen sind ohne echte Betreiberangaben **nicht rechtlich vollständig**. Für öffentliches Hosting sind zusätzliche Hosting-/Datenschutzangaben nötig. Es wird keine rechtliche Vollständigkeit für einen echten Shop behauptet.
 
-Ein lokales Git-Repository ist vorbereitet. Ein initialer Commit dokumentiert die KI-Erstellung; er ersetzt nicht die geforderten laufenden Commits aller Teammitglieder. Das private Remote-Repository ist https://github.com/Erenkocy6/hallo-mehrweg-webp1. Die KI-Erstellung ist als initialer Stand dokumentiert; echte Teambeiträge folgen separat.
+Ein lokales Git-Repository ist vorbereitet. Ein initialer Commit dokumentiert die KI-Erstellung; er ersetzt nicht die geforderten laufenden Commits aller Teammitglieder. Das öffentliche Remote-Repository ist https://github.com/Erenkocy6/hallo-mehrweg-webp1. Die KI-Erstellung ist als initialer Stand dokumentiert; echte Teambeiträge folgen separat.
 
 ## Seitenzuordnung
 

@@ -3,13 +3,13 @@
 - Mitglied 1: [ERGÄNZEN]
 - Mitglied 2: [ERGÄNZEN]
 - Mitglied 3 (optional): [ERGÄNZEN oder entfernen]
-- Remote-Repository (privat): https://github.com/Erenkocy6/hallo-mehrweg-webp1
+- Remote-Repository (öffentlich): https://github.com/Erenkocy6/hallo-mehrweg-webp1
 
 Das lokale Repository enthält einen ehrlichen initialen Stand der KI-Erstellung. Keine fremden Autoren, rückdatierten Commits oder erfundene Teambeiträge wurden erzeugt.
 
 ## Gemeinsam weiterarbeiten
 
-1. Das private Repository ist angelegt; `origin` ist im lokalen Projekt bereits eingerichtet.
+1. Das öffentliche Repository ist angelegt; `origin` ist im lokalen Projekt bereits eingerichtet.
 2. Alle Teammitglieder mit ihren eigenen Konten einladen.
 3. Das Repository auf weiteren Rechnern klonen:
 
