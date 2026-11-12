@@ -1,4 +1,8 @@
-// Theme variables BEFORE importing Bootstrap. No CDN, one compiled stylesheet.
+/* Gestaltung von Hallo Mehrweg. Änderungen hier vornehmen und mit npm run build
+   nach assets/css/main.css übertragen. Die Ausgabe bleibt bewusst mehrzeilig. */
+
+// Farben, Schrift und Abstände vor dem Bootstrap-Import festlegen.
+// Bootstrap übernimmt diese Werte für seine Komponenten und Hilfsklassen.
 $primary: #537c2b;
 $secondary: #385627;
 $success: #537c2b;
@@ -6,7 +10,7 @@ $danger: #b94d32;
 $light: #f5f1ed;
 $dark: #28451c;
 $body-color: #545454;
-$font-family-sans-serif: 'PT Sans Narrow', Arial, sans-serif;
+$font-family-sans-serif: "PT Sans Narrow", Arial, sans-serif;
 $font-size-base: 1.0625rem;
 $headings-color: $primary;
 $headings-font-weight: 700;
@@ -16,24 +20,58 @@ $link-hover-decoration: underline;
 $border-radius: 0;
 $border-radius-sm: 0;
 $border-radius-lg: 0;
-$btn-padding-y: .3rem;
-$btn-padding-x: .85rem;
+$btn-padding-y: 0.3rem;
+$btn-padding-x: 0.85rem;
 $input-bg: #fbf8f5;
 $input-border-color: #d6d3cc;
 $input-focus-border-color: $primary;
 $accordion-button-active-bg: #f1f5ea;
 $accordion-button-active-color: $secondary;
-$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1080px, xxl: 1120px);
-@import '../vendor/bootstrap-scss/bootstrap';
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1080px,
+  xxl: 1120px,
+);
+/* Bootstrap-Grundgerüst: Raster, Navigation, Formulare und Hilfsklassen.
+   Darunter folgen die projektspezifischen Ergänzungen. */
+@import "../vendor/bootstrap-scss/bootstrap";
 
-// Local font embedding cannot be replaced by a Bootstrap utility.
-@font-face { font-family: 'PT Sans Narrow'; font-style: normal; font-weight: 400; font-display: swap; src: url('../fonts/pt-sans-narrow-latin-400-normal.woff2') format('woff2'); }
-@font-face { font-family: 'PT Sans Narrow'; font-style: normal; font-weight: 700; font-display: swap; src: url('../fonts/pt-sans-narrow-latin-700-normal.woff2') format('woff2'); }
-// The mockup's wide photographic banners need ratios not provided by Bootstrap.
-.hero-ratio { --bs-aspect-ratio: 37%; min-height: 270px; }
-.banner-ratio { --bs-aspect-ratio: 18%; min-height: 150px; }
-// A directional image gradient keeps text readable without dimming the whole image.
-.photo-shade { background: linear-gradient(90deg, rgba(0,0,0,.63), rgba(0,0,0,.04)); }
-// Bootstrap has object-fit utilities but no object-position utilities for gallery crops.
-.photo-top { object-position: center top; }
-.photo-bottom { object-position: center bottom; }
+/* Eigene Gestaltung: lokale Schriftdateien für normale und fette Schrift.
+   font-display: swap zeigt während des Ladens eine Ersatzschrift an. */
+@font-face {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/pt-sans-narrow-latin-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/pt-sans-narrow-latin-700-normal.woff2") format("woff2");
+}
+/* Bildflächen: Seitenverhältnis in Prozent der Breite und Mindesthöhe.
+   hero-ratio gilt für große Titelbilder, banner-ratio für flache Banner. */
+.hero-ratio {
+  --bs-aspect-ratio: 37%;
+  min-height: 270px;
+}
+.banner-ratio {
+  --bs-aspect-ratio: 18%;
+  min-height: 150px;
+}
+/* Dunkler Verlauf von links nach rechts, damit Text auf Fotos lesbar bleibt. */
+.photo-shade {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.04));
+}
+/* Bildausschnitt am oberen beziehungsweise unteren Bildrand ausrichten. */
+.photo-top {
+  object-position: center top;
+}
+.photo-bottom {
+  object-position: center bottom;
+}
